@@ -1,0 +1,17 @@
+{
+    "model_type": "TransEncoder",
+    "img_mode": "RGB",
+    "enc_type": "normal",
+    "view_enc_size": 192,
+    "with_low_level": [
+        24,
+        48,
+        96
+    ],
+    "view_pretrained": false,
+    "angular_feat_size": 384,
+    "fusion": "last",
+    "num_layers": 2,
+    "nhead": 6,
+    "version": "v0.0.1"
+}
